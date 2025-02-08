@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #3C5459 !important;
+}
+
+.btn-custom-primary {
+  background-color: #F2B05E !important;
+  border-color: #F2B05E !important;
+  color: #221426 !important;
+}
+
+.btn-custom-primary:hover {
+  background-color: #D95E52 !important;
+  border-color: #D95E52 !important;
+}
+
+.text-custom {
+  color: #76A69D !important;
+}
+
+.welcome-image {
+  max-width: 400px;
+  width: 100%;
+  height: auto;
+  margin: 2rem auto;
+}
