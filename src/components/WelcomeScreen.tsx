@@ -18,7 +18,7 @@ export const WelcomeScreen: React.FC<Props> = ({
   return (
     <div className="container py-4 text-center">
       <h1 className="display-4 mb-4 text-custom">Travel Packy</h1>
-      <p className="text-custom mb-4">by Boarding Better</p>
+            <p className="text-custom mb-4">by 3 O'Clock Media</p>
       <div className="mb-5">
         <FontAwesomeIcon 
           icon={faSuitcase} 
